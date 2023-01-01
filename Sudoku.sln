@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.WebAPI", "Sudoku.WebAPI\Sudoku.WebAPI.csproj", "{7734DD3A-1E71-4240-951E-E11A735C810A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku.WebAPITests", "Sudoku.WebAPITests\Sudoku.WebAPITests.csproj", "{E5C2EE0B-638C-42E9-AD77-C63B811BA1DC}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "sudokuwebapp", "SudokuWebApp\SudokuWebApp\sudokuwebapp.esproj", "{253C4A90-1830-4A29-B40C-EECEFD419E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku.Core", "Sudoku.Core\Sudoku.Core.csproj", "{10B2C490-08BA-4AA5-88D7-3F3EFE3BE4AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku.Infrastructure", "Sudoku.Infrastructure\Sudoku.Infrastructure.csproj", "{A080F976-6FEB-470A-8FE2-12675A0DB9F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku.Core.Tests", "Sudoku.Core.Tests\Sudoku.Core.Tests.csproj", "{A2A81CCC-4434-4FB8-A014-313045355B99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku.Infrastructure.Tests", "Sudoku.Infrastructure.Tests\Sudoku.Infrastructure.Tests.csproj", "{9F5764E1-54CA-4DA6-A915-29533147335F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7734DD3A-1E71-4240-951E-E11A735C810A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7734DD3A-1E71-4240-951E-E11A735C810A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7734DD3A-1E71-4240-951E-E11A735C810A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7734DD3A-1E71-4240-951E-E11A735C810A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C2EE0B-638C-42E9-AD77-C63B811BA1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C2EE0B-638C-42E9-AD77-C63B811BA1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C2EE0B-638C-42E9-AD77-C63B811BA1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C2EE0B-638C-42E9-AD77-C63B811BA1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253C4A90-1830-4A29-B40C-EECEFD419E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253C4A90-1830-4A29-B40C-EECEFD419E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253C4A90-1830-4A29-B40C-EECEFD419E60}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{253C4A90-1830-4A29-B40C-EECEFD419E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253C4A90-1830-4A29-B40C-EECEFD419E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253C4A90-1830-4A29-B40C-EECEFD419E60}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{10B2C490-08BA-4AA5-88D7-3F3EFE3BE4AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B2C490-08BA-4AA5-88D7-3F3EFE3BE4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B2C490-08BA-4AA5-88D7-3F3EFE3BE4AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B2C490-08BA-4AA5-88D7-3F3EFE3BE4AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A080F976-6FEB-470A-8FE2-12675A0DB9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A080F976-6FEB-470A-8FE2-12675A0DB9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A080F976-6FEB-470A-8FE2-12675A0DB9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A080F976-6FEB-470A-8FE2-12675A0DB9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A81CCC-4434-4FB8-A014-313045355B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A81CCC-4434-4FB8-A014-313045355B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A81CCC-4434-4FB8-A014-313045355B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A81CCC-4434-4FB8-A014-313045355B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5764E1-54CA-4DA6-A915-29533147335F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5764E1-54CA-4DA6-A915-29533147335F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5764E1-54CA-4DA6-A915-29533147335F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5764E1-54CA-4DA6-A915-29533147335F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCEC9D96-F08D-47A9-96D4-AD8D71B3DC5A}
+	EndGlobalSection
+EndGlobal
